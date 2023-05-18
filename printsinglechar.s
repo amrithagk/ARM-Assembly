@@ -1,0 +1,8 @@
+.DATA
+MSG: .ASCIZ "A"
+
+.TEXT
+LDR R1, =MSG
+LDRB R0, [R1]
+SWI 0x00
+SWI 0x11
