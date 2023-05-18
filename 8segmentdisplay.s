@@ -1,3 +1,4 @@
+;Up-counter implementation to operate the 8-segment display in ARMsim
 a:
 .word 100000
 .equ A, 0x80
