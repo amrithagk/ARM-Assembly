@@ -1,3 +1,4 @@
+;operates the 8-segment display in ARMsim with down-counter implementation
 a:
 .word 100000
 .equ A, 0x80
